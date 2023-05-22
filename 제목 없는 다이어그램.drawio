@@ -1,0 +1,753 @@
+<mxfile host="app.diagrams.net" modified="2023-05-22T13:08:58.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Rzvmcn6KfZeKcXlFMkSE" version="21.3.2" type="github">
+  <diagram id="6Qg3G_9aTXWXRYNUIckk" name="마이데이터연동시퀀스">
+    <mxGraphModel dx="1434" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-4" value="마이데이터&lt;br&gt;G/W 서버" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="840" y="150" width="100" height="4200" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-4" vertex="1">
+          <mxGeometry x="45" y="444" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-4" vertex="1">
+          <mxGeometry x="45" y="512" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-32" value="9. 전송요구 조회 (CM02)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-4" target="KVrmmXkFtb53Q-sJqrxz-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-320" y="512" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-33" value="10. 전송요구 조회 응답" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-320" y="544" as="targetPoint" />
+            <mxPoint x="45" y="544" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-110" y="544" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-4" vertex="1">
+          <mxGeometry x="45" y="1000" width="10" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-4" vertex="1">
+          <mxGeometry x="45" y="1090" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-66" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-4" vertex="1">
+          <mxGeometry x="45" y="1690" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-76" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-4" vertex="1">
+          <mxGeometry x="45" y="2380" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-93" value="10. 국내 매입 취소 조회 결과" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-314" y="2418" as="targetPoint" />
+            <mxPoint x="45" y="2418" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-94" value="9. 국내 매입취소 조회(CD05)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-314" y="2390" as="sourcePoint" />
+            <mxPoint x="45" y="2390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-100" y="2390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-3" value="더쎈카드&lt;br&gt;API 서버" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="465" y="150" width="100" height="4200" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-3" vertex="1">
+          <mxGeometry x="45" y="90" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-3" vertex="1">
+          <mxGeometry x="45" y="210" width="10" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-3" vertex="1">
+          <mxGeometry x="45" y="700" width="10" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-3" vertex="1">
+          <mxGeometry x="50" y="730" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-22" value="2. 기관코드 조회" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-3" target="KVrmmXkFtb53Q-sJqrxz-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="710" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-3" vertex="1">
+          <mxGeometry x="50" y="800" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-24" value="3. API 버전확인" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-3" target="KVrmmXkFtb53Q-sJqrxz-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="780" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-3" vertex="1">
+          <mxGeometry x="50" y="240" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-26" value="4. 기존 등록 스케줄 해제" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-3" target="KVrmmXkFtb53Q-sJqrxz-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="220" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-3" vertex="1">
+          <mxGeometry x="50" y="310" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-28" value="5. 기관코드 조회" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-3" target="KVrmmXkFtb53Q-sJqrxz-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="290" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-3" vertex="1">
+          <mxGeometry x="50" y="380" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-30" value="6. API&amp;nbsp; 버전확인" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-3" target="KVrmmXkFtb53Q-sJqrxz-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="360" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-3" vertex="1">
+          <mxGeometry x="50" y="578" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-35" value="11. 전송요구 저장/ 스케줄 등록" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-3" target="KVrmmXkFtb53Q-sJqrxz-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="558" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="588" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-3" vertex="1">
+          <mxGeometry x="50" y="870" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-37" value="4. 갱신기간 만료 여부 확인" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-3" target="KVrmmXkFtb53Q-sJqrxz-36" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="850" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-3" vertex="1">
+          <mxGeometry x="50" y="940" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-39" value="5. 접근 토큰 만료 여부 확인" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-3" target="KVrmmXkFtb53Q-sJqrxz-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="920" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-70" value="10. 연동 정보 저장" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-3" target="KVrmmXkFtb53Q-sJqrxz-69" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="1750" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="1780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-3" vertex="1">
+          <mxGeometry x="50" y="1770" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-74" value="11. 연동 정보 저장" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-3" target="KVrmmXkFtb53Q-sJqrxz-75" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="2480" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="2510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-127" value="10. 연동 정보 저장" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-3" target="KVrmmXkFtb53Q-sJqrxz-129" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55.25" y="3940" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85.25" y="3970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-128" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-3" vertex="1">
+          <mxGeometry x="45.5" y="3380" width="10" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-129" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-3" vertex="1">
+          <mxGeometry x="50.25" y="3960" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-133" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-3" vertex="1">
+          <mxGeometry x="50.5" y="3410" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-134" value="2. 기관코드 조회" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-3" target="KVrmmXkFtb53Q-sJqrxz-133" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55.5" y="3390" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85.5" y="3420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-135" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-3" vertex="1">
+          <mxGeometry x="50.5" y="3480" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-136" value="3. API 버전확인" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-3" target="KVrmmXkFtb53Q-sJqrxz-135" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55.5" y="3460" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85.5" y="3490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-137" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-3" vertex="1">
+          <mxGeometry x="50.5" y="3550" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-138" value="4. 갱신기간 만료 여부 확인" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-3" target="KVrmmXkFtb53Q-sJqrxz-137" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55.5" y="3530" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85.5" y="3560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-139" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-3" vertex="1">
+          <mxGeometry x="50.5" y="3620" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-140" value="5. 접근 토큰 만료 여부 확인" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-3" target="KVrmmXkFtb53Q-sJqrxz-139" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55.5" y="3600" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85.5" y="3630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-141" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-3" vertex="1">
+          <mxGeometry x="420.5" y="3680" width="10" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-142" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-3" vertex="1">
+          <mxGeometry x="420.5" y="3770" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-143" value="1. 카드 청구 내역 연동 요청" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-3" target="KVrmmXkFtb53Q-sJqrxz-128" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-324.5" y="3380" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-144" value="6. 접근 토큰 갱신 (AU03)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55.5" y="3689" as="sourcePoint" />
+            <mxPoint x="420.5" y="3689" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-145" value="7. 갱신 토큰 응답" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55.5" y="3714" as="targetPoint" />
+            <mxPoint x="420.5" y="3714" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="385.5" y="3714" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-146" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=15;" parent="KVrmmXkFtb53Q-sJqrxz-3" vertex="1">
+          <mxGeometry x="35.5" y="3666" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-147" value="6. 청구 기본정보 조회(CD21)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55.5" y="3780" as="sourcePoint" />
+            <mxPoint x="420.5" y="3780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-148" value="9. 청구 정보 조회 결과" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="3889" as="targetPoint" />
+            <mxPoint x="420.25" y="3889" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-149" value="11. 연동 결과 응답" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-325" y="4020" as="targetPoint" />
+            <mxPoint x="45.5" y="4020" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-150" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=51;height=20;" parent="KVrmmXkFtb53Q-sJqrxz-3" vertex="1">
+          <mxGeometry x="35.5" y="3750" width="410.75" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-75" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-3" vertex="1">
+          <mxGeometry x="50" y="2500" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-130" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="KVrmmXkFtb53Q-sJqrxz-3" vertex="1">
+          <mxGeometry x="415.25" y="3810" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-131" value="8. 청구 추가정보 조회 결과" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="56.25" y="3848" as="targetPoint" />
+            <mxPoint x="415.25" y="3848" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-132" value="7. 청구 추가정보 조회 (CD22)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="KVrmmXkFtb53Q-sJqrxz-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="56.25" y="3820" as="sourcePoint" />
+            <mxPoint x="415.25" y="3820" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270.25" y="3820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-73" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="510.25" y="2040" width="10" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-47" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="509.25" y="1380" width="10" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-1" value="더쎈카드&lt;br&gt;App" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="90" y="150" width="100" height="4200" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-6" value="1. Nonce 생성요청" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="KVrmmXkFtb53Q-sJqrxz-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="240" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-7" value="2. Nonce 응답" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="KVrmmXkFtb53Q-sJqrxz-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-9" value="3. 통합인증 토큰 발급 요청" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="KVrmmXkFtb53Q-sJqrxz-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-10" value="12. 토큰 발급 완료 응답" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="138" y="788" as="targetPoint" />
+            <mxPoint x="508" y="788" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="392" y="788" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-14" value="7. 통합인증 토큰 발급 요청(AU11)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="KVrmmXkFtb53Q-sJqrxz-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="594" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-15" value="8. 접근 토큰 응답" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="626" as="targetPoint" />
+            <mxPoint x="885" y="626" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="730" y="626" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-19" value="1. 자산(카드)목록 조회 요청" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="KVrmmXkFtb53Q-sJqrxz-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="850" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-20" value="8. 카드 목록 조회 결과" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="139.5" y="1300" as="targetPoint" />
+            <mxPoint x="510" y="1300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-41" value="6. 접근 토큰 갱신 (AU03)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="1159" as="sourcePoint" />
+            <mxPoint x="885" y="1159" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-42" value="7. 갱신 토큰 응답" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="1184" as="targetPoint" />
+            <mxPoint x="885" y="1184" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="850" y="1184" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-43" value="Alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=15;" parent="1" vertex="1">
+          <mxGeometry x="500" y="1136" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-45" value="6. 카드 목록 정보 조회(CD01)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="1250" as="sourcePoint" />
+            <mxPoint x="885" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-46" value="7. 카드 목록 정보 조회 결과" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="514.5" y="1281" as="targetPoint" />
+            <mxPoint x="885" y="1281" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="514.25" y="1410" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-49" value="2. 기관코드 조회" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" target="KVrmmXkFtb53Q-sJqrxz-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519.25" y="1390" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="549.25" y="1420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="514.25" y="1480" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-51" value="3. API 버전확인" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" target="KVrmmXkFtb53Q-sJqrxz-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519.25" y="1460" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="549.25" y="1490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-52" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="514.25" y="1550" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-53" value="4. 갱신기간 만료 여부 확인" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" target="KVrmmXkFtb53Q-sJqrxz-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519.25" y="1530" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="549.25" y="1560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-54" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="514.25" y="1620" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-55" value="5. 접근 토큰 만료 여부 확인" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" target="KVrmmXkFtb53Q-sJqrxz-54" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519.25" y="1600" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="549.25" y="1630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-56" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="884.25" y="1680" width="10" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-57" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="884.25" y="1770" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-58" value="1. 자산(카드) 연동 요청" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="KVrmmXkFtb53Q-sJqrxz-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="139.25" y="1380" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-60" value="6. 접근 토큰 갱신 (AU03)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519.25" y="1689" as="sourcePoint" />
+            <mxPoint x="884.25" y="1689" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-61" value="7. 갱신 토큰 응답" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519.25" y="1714" as="targetPoint" />
+            <mxPoint x="884.25" y="1714" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="849.25" y="1714" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-62" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=15;" parent="1" vertex="1">
+          <mxGeometry x="499.25" y="1666" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-63" value="6. 카드 목록 정보 조회(CD01)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519.25" y="1780" as="sourcePoint" />
+            <mxPoint x="884.25" y="1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-64" value="7. 카드 목록 정보 조회 결과" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519" y="1811" as="targetPoint" />
+            <mxPoint x="884.25" y="1811" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-68" value="9. 카드 기본정보 조회 결과" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519.25" y="1878" as="targetPoint" />
+            <mxPoint x="885" y="1878" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-67" value="8. 카드 기본정보 조회 (CD02)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="1850" as="sourcePoint" />
+            <mxPoint x="885" y="1850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="1850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-71" value="11. 연동 결과 응답" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="138.75" y="1982" as="targetPoint" />
+            <mxPoint x="509.25" y="1982" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-72" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=51;height=20;" parent="1" vertex="1">
+          <mxGeometry x="499.25" y="1750" width="410.75" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-77" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="515.25" y="2070" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-78" value="2. 기관코드 조회" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" target="KVrmmXkFtb53Q-sJqrxz-77" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520.25" y="2050" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="550.25" y="2080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-79" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="515.25" y="2140" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-80" value="3. API 버전확인" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" target="KVrmmXkFtb53Q-sJqrxz-79" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520.25" y="2120" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="550.25" y="2150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-81" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="515.25" y="2210" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-82" value="4. 갱신기간 만료 여부 확인" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" target="KVrmmXkFtb53Q-sJqrxz-81" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520.25" y="2190" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="550.25" y="2220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-83" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="515.25" y="2280" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-84" value="5. 접근 토큰 만료 여부 확인" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" target="KVrmmXkFtb53Q-sJqrxz-83" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520.25" y="2260" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="550.25" y="2290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-85" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="885.25" y="2340" width="10" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-86" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="885.25" y="2430" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-87" value="1. 국내 승인내역 저장 요청" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="KVrmmXkFtb53Q-sJqrxz-73" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140.25" y="2040" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-88" value="6. 접근 토큰 갱신 (AU03)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520.25" y="2349" as="sourcePoint" />
+            <mxPoint x="885.25" y="2349" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-89" value="7. 갱신 토큰 응답" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520.25" y="2374" as="targetPoint" />
+            <mxPoint x="885.25" y="2374" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="850.25" y="2374" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-90" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=15;" parent="1" vertex="1">
+          <mxGeometry x="500.25" y="2326" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-91" value="6. 국내 승인내역 조회(CD03)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520.25" y="2440" as="sourcePoint" />
+            <mxPoint x="885.25" y="2440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-92" value="7. 카드 목록 정보 조회 결과" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="2471" as="targetPoint" />
+            <mxPoint x="885.25" y="2471" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-95" value="12. 연동 결과 응답" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="139.75" y="2710" as="targetPoint" />
+            <mxPoint x="510.25" y="2710" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-96" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=51;height=20;" parent="1" vertex="1">
+          <mxGeometry x="500.25" y="2410" width="410.75" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-97" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="515.25" y="2510" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-98" value="8. API 버전 확인" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" target="KVrmmXkFtb53Q-sJqrxz-97" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520.25" y="2490" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="550.25" y="2520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-99" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=41;height=15;" parent="1" vertex="1">
+          <mxGeometry x="509.25" y="2520" width="394.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-100" value="11. 연동 정보 저장" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" target="KVrmmXkFtb53Q-sJqrxz-101" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="521" y="3380" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="551" y="3410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-102" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="511.25" y="2790" width="10" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-101" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="516" y="3400" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-103" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="886" y="3280" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-104" value="10. 해외 매입 취소 조회 결과" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="527" y="3318" as="targetPoint" />
+            <mxPoint x="886" y="3318" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-105" value="9. 해외 매입취소 조회(CD06)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="527" y="3290" as="sourcePoint" />
+            <mxPoint x="886" y="3290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="741" y="3290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-106" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="516.25" y="2820" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-107" value="2. 기관코드 조회" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" target="KVrmmXkFtb53Q-sJqrxz-106" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="521.25" y="2800" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="551.25" y="2830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-108" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="516.25" y="2890" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-109" value="3. API 버전확인" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" target="KVrmmXkFtb53Q-sJqrxz-108" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="521.25" y="2870" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="551.25" y="2900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-110" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="516.25" y="2960" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-111" value="4. 갱신기간 만료 여부 확인" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" target="KVrmmXkFtb53Q-sJqrxz-110" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="521.25" y="2940" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="551.25" y="2970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-112" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="516.25" y="3030" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-113" value="5. 접근 토큰 만료 여부 확인" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" target="KVrmmXkFtb53Q-sJqrxz-112" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="521.25" y="3010" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="551.25" y="3040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-114" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="886.25" y="3090" width="10" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-115" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="886.25" y="3180" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-116" value="1. 해외 승인내역 저장 요청" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="KVrmmXkFtb53Q-sJqrxz-102" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="141.25" y="2790" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-117" value="6. 접근 토큰 갱신 (AU03)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="521.25" y="3099" as="sourcePoint" />
+            <mxPoint x="886.25" y="3099" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-118" value="7. 갱신 토큰 응답" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="521.25" y="3124" as="targetPoint" />
+            <mxPoint x="886.25" y="3124" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="851.25" y="3124" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-119" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=15;" parent="1" vertex="1">
+          <mxGeometry x="501.25" y="3076" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-120" value="6. 해외 승인내역 조회(CD04)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="521.25" y="3190" as="sourcePoint" />
+            <mxPoint x="886.25" y="3190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-121" value="7. 해외승인내역 정보 조회 결과" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="521" y="3221" as="targetPoint" />
+            <mxPoint x="886.25" y="3221" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-122" value="12. 연동 결과 응답" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140.75" y="3460" as="targetPoint" />
+            <mxPoint x="511.25" y="3460" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-123" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=51;height=20;" parent="1" vertex="1">
+          <mxGeometry x="501.25" y="3160" width="410.75" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-124" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="516.25" y="3260" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-125" value="8. API 버전 확인" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" target="KVrmmXkFtb53Q-sJqrxz-124" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="521.25" y="3240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="551.25" y="3270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVrmmXkFtb53Q-sJqrxz-126" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=41;height=15;" parent="1" vertex="1">
+          <mxGeometry x="510.25" y="3270" width="394.75" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
