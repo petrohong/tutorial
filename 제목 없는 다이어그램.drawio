@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T13:08:58.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Rzvmcn6KfZeKcXlFMkSE" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T01:07:15.080Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="o0wuqJyECvCfv2kNrck3" version="21.3.2" type="github" pages="2">
   <diagram id="6Qg3G_9aTXWXRYNUIckk" name="마이데이터연동시퀀스">
     <mxGraphModel dx="1434" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -747,6 +747,14 @@
         <mxCell id="KVrmmXkFtb53Q-sJqrxz-126" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=41;height=15;" parent="1" vertex="1">
           <mxGeometry x="510.25" y="3270" width="394.75" height="70" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OoeiJegKs1uuq5Tx6AU1" name="페이지-2">
+    <mxGraphModel dx="1434" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
